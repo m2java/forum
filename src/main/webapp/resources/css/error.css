@@ -1,0 +1,38 @@
+/* 404 Style */
+body{
+    font-family: "Pt Sans", Arial, sans-serif;
+    background-color: #79589F;
+}
+.row {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+    background-color: #79589F;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box; }
+
+.title {
+    color:#E6E9EA;
+    text-align:center; }
+
+.sub-heading {
+    font-size: 2.5rem;
+    text-align:center;
+    color: #ec7508;
+    margin: 10px 0; }
+
+hr.hr-style-404 {
+    border: 0;
+    height: 1px;
+    width: 150px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.65), rgba(0, 0, 0, 0)); }
+

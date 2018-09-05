@@ -1,0 +1,100 @@
+/*
+ * General
+ */
+body {
+    padding-top: 50px;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: normal;
+    font-family: "Pt Sans", Arial, sans-serif;
+
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+textarea.form-control {
+    resize: none;
+}
+
+textarea.form-control:focus {
+    outline: none !important;
+    border: 1px solid #79589F;
+}
+
+a, a:hover, a:active {
+    color: #79589F;
+}
+
+/*
+ * Form
+ */
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+
+.form-signin .checkbox {
+    font-weight: normal;
+}
+
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin input {
+    margin-top: 10px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin button {
+    margin-top: 10px;
+}
+
+.has-error {
+    color: red
+}
+
+.btn-custom-purp {
+    color: #fff;
+    background-color: #79589F;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #79589F;
+}
+
+/*
+ * Pagination
+ */
+.pagination > li > a, .pagination > li > a:hover {
+    border: 1px solid #79589F;
+    color: #79589F;
+}
+
+.pagination > li.active > a, .pagination > li.active > a:hover {
+    border: 1px solid #79589F;
+    background: #79589F;
+    color: #fff;
+}

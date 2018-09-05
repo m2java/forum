@@ -1,0 +1,10 @@
+/*
+ * Carousel
+ */
+#carouselExampleSlidesOnly {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.carousel-inner>.active, .carousel-inner>.next, .carousel-inner>.prev {
+    width: 102.5%!important;
+}

@@ -1,0 +1,28 @@
+.user-info {
+    margin-bottom: 15px;
+}
+.info-unit{
+    margin:15px;
+}
+.info-name>a{
+    margin-left:-15px;
+    font-size: 22px;
+}
+.tabs{
+    padding-left: 0;
+}
+.date{
+    font-size: .8em;
+    color: #9d9d9d;
+}
+.comment-text{
+    font-size:18px;
+}
+.topic-name{
+    margin-left:-15px;
+    text-decoration: underline;
+}
+.topic-name>a{
+    margin-left:-15px;
+    text-decoration: underline;
+}
